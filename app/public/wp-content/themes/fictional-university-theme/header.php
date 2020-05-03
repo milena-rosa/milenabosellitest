@@ -15,14 +15,11 @@
         <div class="site-header__menu group">
           <nav class="main-navigation">
             <ul>
-              <?php 
+              <?php
                 function menuFocus($slug) {
-                  // quero pegar o código do parent da página $slug
-                  if (is_page($slug)) {// or wp_get_post_parent_id(0) == get_the_IDget_page_by_path($slug)) {
-                    echo wp_get_post_parent_id(0);
-                    // echo '' + get_page_by_path($slug);
+                  // a atual página é a "slug" ou a mãe da atual página é a "slug"
+                  if (is_page($slug) or (wp_get_post_parent_id(0) == get_page_by_path($slug, '', 'page')->ID)) 
                     return 'class="current-menu-item"';
-                  }
                 }
               ?>
               <li <?php echo menuFocus('about-us'); ?>><a href="<?php echo site_url('/about-us'); ?>">About Us</a></li>
