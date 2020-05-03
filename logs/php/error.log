@@ -1,0 +1,36 @@
+[29-Apr-2020 19:30:50 UTC] PHP Catchable fatal error:  Object of class WP_Post could not be converted to string in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[29-Apr-2020 19:30:50 UTC] PHP Stack trace:
+[29-Apr-2020 19:30:50 UTC] PHP   1. {main}() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:0
+[29-Apr-2020 19:30:50 UTC] PHP   2. require() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:17
+[29-Apr-2020 19:30:50 UTC] PHP   3. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-blog-header.php:19
+[29-Apr-2020 19:30:50 UTC] PHP   4. include() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template-loader.php:106
+[29-Apr-2020 19:30:50 UTC] PHP   5. get_header() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/page.php:2
+[29-Apr-2020 19:30:50 UTC] PHP   6. locate_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/general-template.php:41
+[29-Apr-2020 19:30:50 UTC] PHP   7. load_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:672
+[29-Apr-2020 19:30:50 UTC] PHP   8. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:723
+[29-Apr-2020 19:30:50 UTC] PHP   9. menuFocus() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php:27
+[29-Apr-2020 19:31:18 UTC] PHP Warning:  A non-numeric value encountered in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 22
+[29-Apr-2020 19:31:18 UTC] PHP Stack trace:
+[29-Apr-2020 19:31:18 UTC] PHP   1. {main}() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:0
+[29-Apr-2020 19:31:18 UTC] PHP   2. require() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:17
+[29-Apr-2020 19:31:18 UTC] PHP   3. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-blog-header.php:19
+[29-Apr-2020 19:31:18 UTC] PHP   4. include() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template-loader.php:106
+[29-Apr-2020 19:31:18 UTC] PHP   5. get_header() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/page.php:2
+[29-Apr-2020 19:31:18 UTC] PHP   6. locate_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/general-template.php:41
+[29-Apr-2020 19:31:18 UTC] PHP   7. load_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:672
+[29-Apr-2020 19:31:18 UTC] PHP   8. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:723
+[29-Apr-2020 19:31:18 UTC] PHP   9. menuFocus() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php:27
+[29-Apr-2020 19:34:37 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[29-Apr-2020 19:34:40 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[29-Apr-2020 19:34:44 UTC] PHP Parse error:  syntax error, unexpected '}', expecting end of file in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 25
+[29-Apr-2020 19:36:28 UTC] PHP Warning:  A non-numeric value encountered in /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php on line 21
+[29-Apr-2020 19:36:28 UTC] PHP Stack trace:
+[29-Apr-2020 19:36:28 UTC] PHP   1. {main}() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:0
+[29-Apr-2020 19:36:28 UTC] PHP   2. require() /Users/milena.rosa/Local Sites/milenaboselli/app/public/index.php:17
+[29-Apr-2020 19:36:28 UTC] PHP   3. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-blog-header.php:19
+[29-Apr-2020 19:36:28 UTC] PHP   4. include() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template-loader.php:106
+[29-Apr-2020 19:36:28 UTC] PHP   5. get_header() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/page.php:2
+[29-Apr-2020 19:36:28 UTC] PHP   6. locate_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/general-template.php:41
+[29-Apr-2020 19:36:28 UTC] PHP   7. load_template() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:672
+[29-Apr-2020 19:36:28 UTC] PHP   8. require_once() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-includes/template.php:723
+[29-Apr-2020 19:36:28 UTC] PHP   9. menuFocus() /Users/milena.rosa/Local Sites/milenaboselli/app/public/wp-content/themes/fictional-university-theme/header.php:28
